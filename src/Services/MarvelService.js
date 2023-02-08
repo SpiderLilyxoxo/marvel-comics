@@ -4,7 +4,7 @@ const useMarvelService = () => {
     const {request, clearError, process, setProcess} = useHttp();
 
     const _apiBase = "https://gateway.marvel.com:443/v1/public/";
-    const _apiKey = "apikey=2dbf6b0d41c6b0778a89102291f3348c";
+    const _apiKey = "apikey=";
     const _baseOffset = 260;
 
     const getAllCharacters = async (offset = _baseOffset) => {
